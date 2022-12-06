@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap');
+:root{
+    --dark-orange: #ff6D00;
+    --medium-orange: #ff8500;
+    --light-orange: #ff9E01;
+    --dark-purple: #240046;
+    --medium-purple: #5A199B;
+    --light-purple: #9d4EDD;
+    --white: #FFF;
+}
+body{
+    font-family: 'Poppins', Verdana;
+    background-color: var(--dark-purple);
+    color: var(--white);
+    text-align: center;
+    height: 500px;
+}
+h1{
+    text-shadow: #ff9E01 1px 1px;
+}
+
+fieldset{
+    font-size: 2em;
+    border: none;
+}
+fieldset input{
+    font-size: 0.8em;
+    width: 30%;
+}
+fieldset button{
+    height: 3em;
+    width: 8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--light-purple);
+    color: var(--white);
+    border-radius: 0.4em;
+}
